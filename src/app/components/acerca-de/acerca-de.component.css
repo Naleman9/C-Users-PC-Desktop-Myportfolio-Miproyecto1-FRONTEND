@@ -1,0 +1,39 @@
+.img-fluid{
+    height: 20em;
+    left: 20px;
+    border-radius:100%;
+    position: relative;
+    bottom: 250px;
+}
+.Correo {
+    color:blue;
+    padding: 3px;
+    position: relative;
+    left: 272px;
+    nav-up:10px;
+    bottom: 350px;
+    
+}
+.Informacion {
+    border-radius:30px;
+    padding: 3px;
+    position: relative;
+    border-style: solid;
+    border-color: blueviolet;
+    bottom: 400px;
+    width: 100%;
+    }
+
+    Img {
+        max-width: 100%;
+        height: auto;
+    }
+    .Acerca {
+        color:black;
+        padding: 2em;
+        position: relative;
+        left: 10px;
+        nav-up:10px;
+        bottom: 380px;
+        line-height: 30px;
+    }

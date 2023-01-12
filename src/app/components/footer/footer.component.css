@@ -1,0 +1,10 @@
+.row{
+    position: relative;
+    bottom: 650px;
+    color:blue;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000000;
+}

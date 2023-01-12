@@ -1,0 +1,42 @@
+.Estudios {
+    position: relative;
+    left: 5px;
+    bottom: 650px;
+}
+.Laboral {
+    padding: 2em;
+    position: relative;
+    left: 180px;
+    bottom: 400px;
+}
+.Tercera-img{
+    position: relative;
+    left: 10px;
+    bottom: 730px;
+    width: 200px;
+    border-radius: 50px;
+}
+.Cuarta-img {
+    position: relative;
+    left: 10px;
+    bottom: 710px;
+    width: 200px;
+    border-radius: 50px;
+}
+.Blog {
+    position: relative;
+    bottom: 850px;
+    left: 10px;
+}
+.img-fluid {
+    height: 11em;
+    width: 100%;
+    position: relative;
+    left: 272px;
+    bottom: 130px;
+    padding: 3em;
+    
+}
+
+
+

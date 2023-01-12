@@ -1,0 +1,9 @@
+.Logros {
+    border-style: solid;
+    border-radius: 30px;
+    border-color: blueviolet;
+    padding: 3px;
+    position: relative;
+    bottom: 800px;
+    line-height: 30px;
+ }
