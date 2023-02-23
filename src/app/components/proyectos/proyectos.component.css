@@ -1,12 +1,13 @@
 .row{
-    padding: 20px;
     position: relative;
-    bottom: 700px;
+    bottom: 350px;
     line-height: 30px;
-
+    left: 5px; 
+    width: 1300px;
 }
 .contenedor{
     width: auto;
+    text-align: center;
 }
 .parte1, .parte2{
 display: inline-block;

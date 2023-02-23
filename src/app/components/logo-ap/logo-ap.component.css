@@ -27,9 +27,10 @@ img{
 .Redes{
     display: flex;
     flex-direction:column;
-    align-items: center;
+    align-items:center;
 }
 .Redes img{
     margin: 0.2em;
+    right: 30px;
 }
 }

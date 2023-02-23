@@ -1,0 +1,26 @@
+.row{
+    position: relative;
+    bottom: 150px;
+    line-height: 30px;
+    width: 1300px;
+}
+.Segunda-img {
+    height: 7em;
+    width: 1000px;
+    position: relative;
+    left: 320px;
+    bottom: 50px;
+    margin: 1em;
+    padding: 1em;
+    background-size: cover;
+}
+.Estudios {
+    position: relative;
+    left: 5px;
+    bottom: 120px;
+    width: 1300px;
+}
+.Blog {
+    position: relative;
+    bottom: 300px;
+}

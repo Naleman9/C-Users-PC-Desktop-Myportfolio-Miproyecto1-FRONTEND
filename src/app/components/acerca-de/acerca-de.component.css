@@ -1,27 +1,30 @@
 .img-fluid{
     height: 20em;
-    left: 20px;
+    left: 50px;
     border-radius:100%;
     position: relative;
     bottom: 250px;
+    padding: 1em;
 }
 .Correo {
     color:blue;
     padding: 3px;
     position: relative;
-    left: 272px;
+    left: 380px;
     nav-up:10px;
-    bottom: 350px;
-    
+    bottom: 300px;
 }
 .Informacion {
     border-radius:30px;
-    padding: 3px;
     position: relative;
     border-style: solid;
-    border-color: blueviolet;
-    bottom: 400px;
-    width: 100%;
+    border-color: blue;
+    bottom: 320px;
+    width: 900px;
+    padding: 1em;
+    text-align: center;
+    left: 200px;
+    
     }
 
     Img {
@@ -29,11 +32,18 @@
         height: auto;
     }
     .Acerca {
-        color:black;
-        padding: 2em;
+        color:black;  
         position: relative;
         left: 10px;
         nav-up:10px;
-        bottom: 380px;
+        bottom: 300px;
         line-height: 30px;
+        padding: 1em;
+        width: 1300px;
+        text-align:start;
     }
+    /* Etiqueta nombre*/
+    #nombre {
+     font-weight:bold;
+    }
+    

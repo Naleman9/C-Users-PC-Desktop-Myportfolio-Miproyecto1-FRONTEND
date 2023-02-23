@@ -5,11 +5,12 @@
     </div>
             <div class="Redes">
                 <a href="https://www.instagram.com/alnereida/"><img src="assets/instagram.png"alt="instagram"></a>
-                <a href=""><img src="assets/facebook.png"alt="facebook"></a>
-                <a href=""><img src="assets/github.png"alt="github"></a>
-                <a href=""><img src="assets/linkedin.png"alt="linkedin"></a>
-                <a href=""><img src="assets/twitter.png"alt="twitter"></a>
-                <button type="button" class="btn btn-outline-light">INGRESO</button>
+                <a href="https://www.facebook.com/nereidaleman19/"><img src="assets/facebook.png"alt="facebook"></a>
+                <a href="https://github.com/Naleman9"><img src="assets/github.png"alt="github"></a>
+                <a href="https://www.linkedin.com/in/nereida-aleman-5582961a9/"><img src="assets/linkedin.png"alt="linkedin"></a>
+                <a href="https://twitter.com/Aleman2Nereida"><img src="assets/twitter.png"alt="twitter"></a>
+                <button type="button" class="btn btn-outline-light"(click)="login()">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
             </div>
     </div>
 </div>

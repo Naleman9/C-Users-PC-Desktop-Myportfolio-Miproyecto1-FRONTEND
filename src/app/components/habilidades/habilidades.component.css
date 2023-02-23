@@ -1,5 +1,11 @@
 .row {
     position: relative;
-    bottom: 750px;
-    padding: 20px;
+    bottom: 450px;
+    line-height: 5px;
+    width: 1400px;
+}
+.circulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
