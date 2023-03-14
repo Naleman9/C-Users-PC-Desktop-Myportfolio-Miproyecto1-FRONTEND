@@ -10,12 +10,9 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
 
-<<<<<<< HEAD
-  URL = environment.URL + 'educacion/';
-=======
-  URL = 'http://localhost:8080/educacion/';
->>>>>>> 551334bc383bfaf4e18a228194208f024dd42e06
 
+  URL = environment.URL + 'educacion/';
+ 
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{

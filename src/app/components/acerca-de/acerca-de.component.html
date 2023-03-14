@@ -1,18 +1,28 @@
-<div>
-  <img src="../../../assets/Perfil.jpg" class="img-fluid" id="fotodeperfil">
-<div class="Correo">
-    <h1 id="nombre">Nereida de C Aleman B</h1>
-  <h2>Full Stack Developer Jr</h2>
-</div> 
-<div class="Acerca"> 
-  <h1>Acerca de mí</h1>
-  <p>Soy comprometida y honestad, donde aportando mis conocimientos en cualquier área, se encuentren satisfechos con mis trabajos.
-   Mi desempeño es eficaz y eficiente, teniendo la capacidad para trabajar en equipo siendo una de mis virtudes.</p>   
+<br>
+  <h1>Datos:</h1>
+    <div class="Boton">
+      <button type="button" class="btn btn-dark" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar Persona
+      </button>
+      </div>
+      <div class="row">
+  <div class="img-fluid">
+    <img src="{{ persona.img }}" class="img-fluid" id="fotoperfil" />
   </div>
-  <div class="Informacion">
-    <h2> Informacion de contacto</h2>
-    <p>Buenos Aires,Monserrat.</p>
-    <p>Naleman904@gmail.com / Nereidaleman19@hotmail.com </p>
+  <div class="Correo">
+    <h1 id="nombre">{{ persona.nombre }} {{ persona.apellido }}</h1>
+    <h2>Full Stack Web Developer Jr</h2>
   </div>
-  
-  
+  <div class="Acerca">
+    <span>
+      <h1>Acerca de mi</h1>
+      <p>
+        {{ persona.descripcion }}
+      </p>
+    </span>
+  </div>
+<div class="Informacion">
+  <h2>Informacion de contacto</h2>
+  <p>Buenos Aires,Monserrat.</p>
+  <p>Naleman904@gmail.com / Nereidaleman19@hotmail.com</p>
+</div>

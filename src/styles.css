@@ -6,11 +6,9 @@ body {
     line-height: 1em;
     margin-right:1000px;
     min-width: 1000px;
-<<<<<<< HEAD
+
     color: black;
    
-=======
->>>>>>> 551334bc383bfaf4e18a228194208f024dd42e06
 }
 h2 {
     text-decoration:underline;
@@ -22,11 +20,10 @@ header{
     }
  h3{
         text-decoration:underline;
-<<<<<<< HEAD
+
         color: darkmagenta;
     }
-=======
-    }
 
 
->>>>>>> 551334bc383bfaf4e18a228194208f024dd42e06
+
+
